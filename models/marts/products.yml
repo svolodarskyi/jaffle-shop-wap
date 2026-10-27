@@ -1,0 +1,12 @@
+models:
+  - name: products
+    description: |
+      Product dimension table. The grain of the table is one row per product.
+    columns:
+      - name: product_id
+      - name: product_name
+      - name: product_type
+      - name: product_description
+      - name: is_food_item
+      - name: is_drink_item
+      - name: product_price
